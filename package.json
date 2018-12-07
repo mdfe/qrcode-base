@@ -1,0 +1,14 @@
+{
+  "name": "qrcode-base",
+  "version": "1.0.0",
+  "main": "qrcode.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack qrcode.js -p -o qrcode.min.js --output-library-target='umd'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "description": ""
+}
